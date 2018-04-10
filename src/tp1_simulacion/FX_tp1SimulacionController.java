@@ -74,7 +74,25 @@ public class FX_tp1SimulacionController implements Initializable {
     private Button btn_nuevo;
     @FXML
     private Button btn_siguiente;
-    
+    @FXML
+    private ComboBox<?> cb_metodo;
+    @FXML
+    private TextField tf_elementos;
+    @FXML
+    private TextField tf_intervalos;
+    @FXML
+    private TableColumn col1;
+    @FXML
+    private TableColumn col2;
+    @FXML
+    private Button bt_ejecutarChi;
+    @FXML
+    private Label lbl_intervalos;
+    @FXML
+    private Label lbl_elementos;
+    @FXML
+    private Label lbl_metodo;
+    @FXML
     @FXML
     private void seleccionarMetodo(ActionEvent event)
     {
